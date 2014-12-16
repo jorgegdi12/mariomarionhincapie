@@ -60,7 +60,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.fondoheader{
+    background: #840000;
+}
+.logo{
+    width: 100%;
 
+}
+.ilogo{
+    float: right;
+}
+.menu{
+    width: 100%;
+    float: right;
+
+}
+.slide{
+
+}
 
 
 
