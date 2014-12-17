@@ -1,94 +1,132 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Mario Marín Hincapie</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-        <link rel="shortcut icon" href="ico/favicon.ico">
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Diputado Mario Marin Hincapie</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/normalize.css">
 
-        <script src="js/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- HEADER
-        ================================================== -->
-        <header class="fondoheader">
-          <div class="row">
-            <div class="col-lg-5">
-              <figure class="logo"><img class="ilogo" src="img/logo.png" alt="logo"></figure>
-              <nav class="menu">
-                <ul class="nav nav-pills nav-stacked">
-                  <li role="presentation" class="active"><a href="#">Home</a></li>
-                  <li role="presentation"><a href="#">Sobre mi</a></li>
-                  <li role="presentation"><a href="#">Noticias</a></li>
-                  <li role="presentation"><a href="#">Galeria</a></li>
-                  <li role="presentation"><a href="#">Contactos</a></li>
-                </ul>
-              </nav>             
-            </div>
-            <div class="col-lg-7">
-             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="img/slide1.jpg" alt="...">
-                </div>
-                <div class="item">
-                  <img src="img/slide1.jpg" alt="...">
-                </div>
-              </div>
-
-              <!-- Controls -->
-              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div> 
-            </div>
-            
-          </div>
-        </header>
-        <!-- NAV
-        ================================================== -->
-
-        <!-- SLIDE
-        ================================================== -->
-        <section>
-        </section>
-                  <!-- CONTENT
-        ================================================== -->
-                  <!--  FOOTER
-        ================================================== -->
-      
-        <footer>  
-        </footer>
-        <br>
-
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-         <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+</head>
+<body>
+  <header class="Header">
+  <div class="menu">
+     <figure class="Header-logo"><img src="img/logo.png" alt="logo"></figure>
+     <nav class="HeaderMainMenu">
+       <ul class="MainMenu-list">
+         <li class="MainMenu-item">
+           <a class="MainMenu-link" href="#">Sobre Mi</a>
+         </li>
+         <li class="MainMenu-item">
+           <a class="MainMenu-link"  href="#">Noticias</a>
+         </li>
+         <li class="MainMenu-item">
+           <a class="MainMenu-link"  href="#">Galeria</a>
+         </li>
+         <li class="MainMenu-item">
+           <a class="MainMenu-link"  href="#">Contactos</a>
+         </li>
+       </ul>
+     </nav>
+   </div>
+   <div class="Header-Slide">
+     <img src="img/slide1.jpg" alt="">
+   </div> 
+  </header>
+  <section class="SectionProfile">
+    <div class="Profile">
+     <p class="Profile-Paragraph">
+      Unete a nuestro proyecto <br>
+      Deja Tu correo
+    </p>
+    <input type="text" name="email" class="" value="tucorreo@correo.com" id="email"  onblur="if (this.value == ''){this.value = 'tucorreo@correo.com'; }" onfocus="if (this.value == 'tucorreo@correo.com') {this.value = '';}" />
+    <button type="submit">Enviar</button> 
+    </div>
+    <div>
+      <h1 class="Profile-Intro">
+        Soy un Hombre de famila ,con solidos principios morales.
+        He dedicado gran parte de mi vida a la politica;
+        buscando siempre trabajar por las comunidades mas vulnerables; he sido reconocido como el diputado del Deporte.
+        He sido autor de 16 ordenanzas; entre las que se encuentran iniciativas por la defenza del medio ambiente.
+      </h1>
+    </div>
+  </section>
+  <section class="SectionPilares">
+    <article id="Pilares">
+      <figure></figure>
+      <h2 class="Pilares-Titulos">La Familia</h2>
+      <p class="Pilares-Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet exercitationem qui, reprehenderit neque. Culpa recusandae dolor modi rem deserunt nostrum totam cumque id aliquid, est voluptas omnis atque iste non?</p>
+    </article>
+    <article id="deporte">
+      <figure></figure>
+      <h2 class="Pilares-Titulos">La Familia</h2>
+      <p class="Pilares-Titulos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam veniam repellendus deleniti a laborum qui repudiandae magnam facilis consectetur dolorem magni blanditiis laboriosam, aliquid quisquam ad consequuntur perspiciatis! Excepturi, eum.</p>
+    </article>
+    <article id="ambiente">
+      <figure></figure>
+      <h2 class="Pilares-Titulos">La Familia</h2>
+      <p class="Pilares-Titulos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quod maxime consequuntur. A recusandae obcaecati, voluptatibus ducimus modi qui, cum libero sequi accusamus sit doloremque fugit quo odit nostrum quis!</p>
+    </article>
+  </section>
+  <section class="SectionVideo">
+    <div>
+      <img src="img/video.png" alt="">
+    </div>
+  </section>
+  <section class="SectionNoticias">
+    <article class="Noticias">
+      <figure></figure>
+      <h2 class="Noticias-Titulos">Noticias</h2>
+      <div>
+        <p class="Noticias-Mes">Julio</p>
+        <p class="Noticias-Dia">12</p> 
+      </div>
+      <p class="Noticias-Paragraph">
+        Mediante proposición No 002 del veintidós (2) de julio del año en curso presentada por el diputado MARIO MARIN HINCAPIE, reconocimiento a los doctores MARIO JIMENEZ CORREA Y JAIME CORTES DIAZ, gestores de los Juegos Nacionales que el 22 de julio del año en curso <a class="Noticias-Link" href="#">Ver mas</a> 
+      </p>
+      <div>
+        <p class="Noticias-Mes">Julio</p>
+        <p class="Noticias-Dia">12</p> 
+      </div>
+      <p class="Noticias-Paragraph">
+        Mediante proposición No 002 del veintidós (2) de julio del año en curso presentada por el diputado MARIO MARIN HINCAPIE, reconocimiento a los doctores MARIO JIMENEZ CORREA Y JAIME CORTES DIAZ, gestores de los Juegos Nacionales que el 22 de julio del año en curso <a class="Noticias-Link" href="#">Ver mas</a> 
+      </p>
+    </article>
+  </section>
+  <footer class="Footer">
+    <article id="llamar">
+      <figure></figure>
+      <h4 class="Footer-Title">
+        Llama
+      </h4>
+      <p>
+        3136615126
+      </p>
+    </article>
+    <article id="email">
+      <figure></figure>
+      <h4 class="Footer-Title">
+        Llama
+      </h4>
+      <p>
+        mario418@hotmail.com
+      </p>
+    </article>
+    <article id="sigue">
+      <i class="icon-camera-retro icon-3x"></i>
+      <h4 class="Footer-Title">
+        Sigue
+      </h4>
+        <a href="#">facebook</a>
+        <a href="#">Twiter</a>
+    </article>
+    <article id="partido">
+      <a href="#"><img src="img/partido.png" alt="partido liberal"></a>
+    </article>
+    <a class="Footer-linkFitts" href="#">Desarrollado por Fitts Media</a>
+  </footer>
+</body>
 </html>
