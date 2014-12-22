@@ -1,14 +1,113 @@
 .Header{
+background: #840000;
+width: 40%;
+float: left;
+height: 34.44em;
+overflow: hidden;
+}
+
+.Menu{
+float: right;
 
 }
-.HeaderMainMenu{
+.Menu-logo{
+margin: 3em 4.25em 2em;
+}
+.MainMenu{
+float: right;
+margin-right: 4.25em;
 
+}
+.MainMenu-list{
+list-style: none;
+}
+.MainMenu-item{
+padding: 0.5em 0;  
+}
+.MainMenu-link{
+ text-decoration: none;
+ color: #fff;
+ font-size: 1.2em; 
+}
+.MainMenu-link:hover{
+  color: #000;
+}
+.Slide{
+  width:60%;
+  float: right;
+  background:url(../img/slide1.jpg);
+  background-repeat:no-repeat;
+  height: 551px;
 }
 .SectionProfile{
-
+background: #595959;
+width: 40%;
+float: left;
+overflow: hidden;
+}
+.Profile{
+  background:url(../img/fondo.png) #595959;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0;
+  float: right;
+  width: 60%; 
+}
+.Profile-Paragraph{
+  margin: 0;
+  padding: 0.8em;
+  font-size: 1.4em;
+  color: #fff;
+  line-height: 3;
+}
+.Profile-email{
+margin: 0.8em;
+padding: 0.3em 0;
+}
+.Profile-submit{
+  margin: 0.8em;
+  padding: 0.3em;
+}
+.Profile-submit:hover{
+  background: #840000;
+  color: #fff; 
+}
+.PronfileIintro{
+  background: #9B9B9B;
+  float: right;
+  width: 100%;
+}
+.Profile-h1{
+  width: 58%;
+  float: right;
+  font-size: 1.2em;
+  margin: 2em 0;
+  color: #474747;
 }
 .SectionPilares{
-
+width: 60%;
+float: right;
+background: #840000; 
+}
+.Pilares{
+float: left;
+width: 60%;
+}
+.Pilares-img{
+display: inline-block;
+margin: 0;
+width: 30%;
+}
+.Pilares-contenido{
+display: inline-block;
+margin: 0;
+width: 60%;
+}
+.Pilares-Titulos{
+margin: 0;
+}
+.Pilares-Paragraph{
+margin: 0;
 }
 .SectionVideo{
 
@@ -16,4 +115,7 @@
 .SectionNoticias{
 
 }
-.Footer
+.Footer{
+
+}
+

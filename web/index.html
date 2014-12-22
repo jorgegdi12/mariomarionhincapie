@@ -6,6 +6,7 @@
   <title>Diputado Mario Marin Hincapie</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="css/normalize.css">
@@ -13,9 +14,9 @@
 </head>
 <body>
   <header class="Header">
-  <div class="menu">
-     <figure class="Header-logo"><img src="img/logo.png" alt="logo"></figure>
-     <nav class="HeaderMainMenu">
+  <div class="Menu">
+     <figure class="Menu-logo"><img src="img/logo.png" alt="logo"></figure>
+     <nav class="MainMenu">
        <ul class="MainMenu-list">
          <li class="MainMenu-item">
            <a class="MainMenu-link" href="#">Sobre Mi</a>
@@ -31,44 +32,51 @@
          </li>
        </ul>
      </nav>
-   </div>
-   <div class="Header-Slide">
-     <img src="img/slide1.jpg" alt="">
-   </div> 
+  </div>  
   </header>
+
+   <div class="Slide">
+   </div> 
+
   <section class="SectionProfile">
-    <div class="Profile">
+    <article class="Profile">
      <p class="Profile-Paragraph">
       Unete a nuestro proyecto <br>
       Deja Tu correo
     </p>
-    <input type="text" name="email" class="" value="tucorreo@correo.com" id="email"  onblur="if (this.value == ''){this.value = 'tucorreo@correo.com'; }" onfocus="if (this.value == 'tucorreo@correo.com') {this.value = '';}" />
-    <button type="submit">Enviar</button> 
-    </div>
-    <div>
-      <h1 class="Profile-Intro">
-        Soy un Hombre de famila ,con solidos principios morales.
-        He dedicado gran parte de mi vida a la politica;
-        buscando siempre trabajar por las comunidades mas vulnerables; he sido reconocido como el diputado del Deporte.
+    <input type="text" name="email" class="Profile-email" value="tucorreo@correo.com" id="email"  onblur="if (this.value == ''){this.value = 'tucorreo@correo.com'; }" onfocus="if (this.value == 'tucorreo@correo.com') {this.value = '';}" /><br>
+    <button type="submit" class="Profile-submit">Enviar</button> 
+    </article>
+    <article class="PronfileIintro">
+      <h1 class="Profile-h1">
+        Soy un Hombre de famila ,con solidos principios morales. <br>
+        He dedicado gran parte de mi vida a la politica; <br>
+        buscando siempre trabajar por las comunidades mas vulnerables; he sido reconocido como el diputado del Deporte. <br>
         He sido autor de 16 ordenanzas; entre las que se encuentran iniciativas por la defenza del medio ambiente.
       </h1>
-    </div>
+    </article>
   </section>
   <section class="SectionPilares">
-    <article id="Pilares">
-      <figure></figure>
-      <h2 class="Pilares-Titulos">La Familia</h2>
-      <p class="Pilares-Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet exercitationem qui, reprehenderit neque. Culpa recusandae dolor modi rem deserunt nostrum totam cumque id aliquid, est voluptas omnis atque iste non?</p>
+    <article class="Pilares">
+      <figure class="Pilares-img"><img src="img/ico-familia.png" alt=""></figure>
+      <div class="Pilares-contenido">
+        <h2 class="Pilares-Titulos">La Familia</h2>
+        <p class="Pilares-Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet exercitationem qui, reprehenderit neque. Culpa recusandae dolor modi rem deserunt nostrum   totam cumque id aliquid, est voluptas omnis atque iste non?</p>
+      </div>
     </article>
-    <article id="deporte">
-      <figure></figure>
-      <h2 class="Pilares-Titulos">La Familia</h2>
-      <p class="Pilares-Titulos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam veniam repellendus deleniti a laborum qui repudiandae magnam facilis consectetur dolorem magni blanditiis laboriosam, aliquid quisquam ad consequuntur perspiciatis! Excepturi, eum.</p>
+    <article class="Pilares">
+      <figure class="Pilares-img"><img src="img/ico-familia.png" alt=""></figure>
+      <div class="Pilares-contenido">
+        <h2 class="Pilares-Titulos">La Familia</h2>
+        <p class="Pilares-Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet exercitationem qui, reprehenderit neque. Culpa recusandae dolor modi rem deserunt nostrum   totam cumque id aliquid, est voluptas omnis atque iste non?</p>
+      </div>
     </article>
-    <article id="ambiente">
-      <figure></figure>
-      <h2 class="Pilares-Titulos">La Familia</h2>
-      <p class="Pilares-Titulos">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quod maxime consequuntur. A recusandae obcaecati, voluptatibus ducimus modi qui, cum libero sequi accusamus sit doloremque fugit quo odit nostrum quis!</p>
+    <article class="Pilares">
+      <figure class="Pilares-img"><img src="img/ico-familia.png" alt=""></figure>
+      <div class="Pilares-contenido">
+        <h2 class="Pilares-Titulos">La Familia</h2>
+        <p class="Pilares-Paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet exercitationem qui, reprehenderit neque. Culpa recusandae dolor modi rem deserunt nostrum   totam cumque id aliquid, est voluptas omnis atque iste non?</p>
+      </div>
     </article>
   </section>
   <section class="SectionVideo">
