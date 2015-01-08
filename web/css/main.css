@@ -51,7 +51,7 @@ overflow: hidden;
   background-position: right;
   margin: 0;
   float: right;
-  width: 60%; 
+  width: 80%; 
 }
 .Profile-Paragraph{
   margin: 0;
@@ -78,7 +78,7 @@ padding: 0.3em 0;
   width: 100%;
 }
 .Profile-h1{
-  width: 58%;
+  width:80%;
   float: right;
   font-size: 1.2em;
   margin: 2em 0;
@@ -92,28 +92,33 @@ background: #840000;
 .Pilares{
 float: left;
 width: 60%;
+color:#fff;
 }
 .Pilares-img{
 display: inline-block;
 margin: 0;
+padding-left: 2em;
 width: 30%;
 }
 .Pilares-contenido{
 display: inline-block;
 margin: 0;
+padding-top: 1em;
 width: 60%;
 }
 .Pilares-Titulos{
 margin: 0;
+padding-bottom:0.3em;
 }
 .Pilares-Paragraph{
 margin: 0;
+padding-bottom:0.8em;
 }
 .SectionVideo{
-
+clear: both;
 }
 .SectionNoticias{
-
+float: left;
 }
 .Footer{
 
